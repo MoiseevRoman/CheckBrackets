@@ -13,13 +13,13 @@ int main( int argc, char *argv[] )
     char vv =0;
     char cha=0;
     int rou = 0;
-    int rou_ = 0;// порядок круглых
+    int rou_ = 0;// poryadok cryglih
     int qua = 0;
-    int qua_ = 0;// порядок квадратных
+    int qua_ = 0;// poryadok qvadratnih
     int fig = 0;
-    int fig_ = 0;  //порядок фигурных
+    int fig_ = 0;  // poryadok figurnih
     int pr = 0;
-    int por = 0; //порядок скобок
+    int por = 0; //poryadok skobok
     printf("Choice type of brackets:((,[,{,a):\n",'%s');
     scanf("%c",&vv);
     while((cha = getc(input))!= EOF){
